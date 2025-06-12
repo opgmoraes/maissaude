@@ -11,7 +11,7 @@ public class TelaLogin extends JFrame {
         JPanel panel = new JPanel(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.insets = new Insets(10, 10, 10, 10);
-        gbc.fill = GridBagConstraints.NONE; //
+        gbc.fill = GridBagConstraints.NONE; 
 
         JLabel clinicLabel = new JLabel("Clínica Mais Saúde");
         clinicLabel.setFont(new Font("Arial", Font.BOLD, 24));
