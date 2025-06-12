@@ -4,7 +4,7 @@ import java.awt.*;
 public class TelaEspecialidades extends JFrame {
     public TelaEspecialidades(String username) {
         setTitle("Selecione a Especialidade");
-        setSize(800, 600);  // janela maior
+        setSize(800, 600); 
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLocationRelativeTo(null);
 
@@ -15,7 +15,7 @@ public class TelaEspecialidades extends JFrame {
         topPanel.add(welcomeLabel);
 
         JPanel centerPanel = new JPanel();
-        centerPanel.setLayout(new GridLayout(0, 3, 10, 10)); // grid com 3 colunas e espaçamento
+        centerPanel.setLayout(new GridLayout(0, 3, 10, 10)); 
 
 
         String[] especialidades = {
