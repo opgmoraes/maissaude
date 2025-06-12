@@ -16,7 +16,7 @@ public class TelaHome extends JFrame {
         topPanel.add(welcomeLabel, BorderLayout.WEST);
         panel.add(topPanel, BorderLayout.NORTH);
 
-        JPanel menuPanel = new JPanel(new GridLayout(5, 1, 15, 15)); // Agora com 5 opções
+        JPanel menuPanel = new JPanel(new GridLayout(5, 1, 15, 15)); 
         menuPanel.setBorder(BorderFactory.createEmptyBorder(40, 100, 40, 100));
 
         JButton examsButton = new JButton("Acessar Exames");
